@@ -5,7 +5,7 @@
 	font-size:16px;
 	line-height:26px;
 	margin:0;
-
+	padding: 0;
 }
 
 .container{
@@ -182,7 +182,7 @@ img{
 }
 
 
-#main-footer{
+.footer{
 	position:relative;
 	left:0;
 	bottom:0;
@@ -190,6 +190,7 @@ img{
 	background-color:black;
 	color:white;
 	text-align:center;
+	padding: 20px;
 } 
 
 
