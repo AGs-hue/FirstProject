@@ -17,6 +17,19 @@
 
 nav{
 	background-color:black;
+	display: flex;
+	justify-content: space-between;
+	min-height: 20px;
+}
+
+nav .nav-brand{
+	text-transform: capitalize;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	color:#fff;
+	font-size: 1.2em;
 }
 
 nav ul{
@@ -59,10 +72,6 @@ li:last child{
 	border-right:none;
 }
 
-
-ul{
-	position:right;
-}
 #showcase{
 	background-image:url("../images/4.jpg");
 	background-position:center;
@@ -95,25 +104,36 @@ ul{
 	text-decoration: none;
 }
 
-#about div{
+.about{
+	margin: 100px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about div{
 	width:60%;
-	float:left;
-	padding-right:10%;
 }
 
-#about aside{
+.about aside{
 	width:30%;
-	float:left;
-
 }
 
-#about aside img{
+.about aside img{
 	width:100%;
 }
 
-#about h1{
+.about h1{
 	text-decoration:underline red; 
 } 
+
+.gallery{
+	margin: 100px 0;
+}
+
+.gallery h1 {
+	text-align: center;
+	margin-bottom: 100px;
+}
 
 .grid-container{
 	display: flex;
@@ -142,14 +162,13 @@ img{
 }
 
 
- #services {
+.services {
 	background-image:url("../images/11.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	min-height:300px;
-	margin-bottom:30px;
-	margin-top:40px;
+	margin: 100px 0;
 	text-align:center;
 	clear:both;
 	border:1px solid black;
