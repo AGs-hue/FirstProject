@@ -172,16 +172,6 @@ img{
 	clear:both;
 }
 
-#contacts a{
-	display:inline-block;
-	padding:20px;
-	box-shadow:-10px 20px 10px rgba(0,0,0,0.5);
-	margin-right:30px;
-	margin-bottom:30px;
-	border-radius:5px;
-}
-
-
 .footer{
 	position:relative;
 	left:0;
@@ -192,5 +182,17 @@ img{
 	text-align:center;
 	padding: 20px;
 } 
+
+.footer-contact{
+	margin-bottom: 50px;
+}
+
+.footer-contact h4{
+	margin-bottom: 0px;
+}
+
+.footer-contact p.contact-info{
+	margin-top: 0px;
+}
 
 
